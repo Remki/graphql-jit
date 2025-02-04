@@ -68,7 +68,7 @@ import { getGraphQLErrorOptions, getOperationRootType } from "./compat.js";
 // import memoize from "lodash.memoize";
 
 const inspect = createInspect();
-const joinOriginPaths = joinOriginPathsImpl;//memoize(joinOriginPathsImpl);
+const joinOriginPaths = joinOriginPathsImpl; //memoize(joinOriginPathsImpl);
 
 export interface CompilerOptions {
   customJSONSerializer: boolean;
