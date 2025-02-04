@@ -48,7 +48,9 @@
     "test": "jest"
   },
   "files": [
-    "dist/*"
+    "dist",
+    "dist/*",
+    "dist/**"
   ],
   "jest": {
     "extensionsToTreatAsEsm": [
