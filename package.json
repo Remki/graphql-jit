@@ -44,6 +44,7 @@
     "lint": "eslint .",
     "mutation-test": "stryker run",
     "precommit": "lint-staged",
+    "prepare": "yarn build",
     "prepublishOnly": "yarn && yarn build",
     "test": "jest"
   },
